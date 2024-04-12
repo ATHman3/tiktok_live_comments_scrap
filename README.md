@@ -2,6 +2,8 @@
 
 This project allows you to scrape all comments from a TikTok live stream and save them to a CSV file in the `chat` folder.
 
+This project is built on top of the [TikTok-Live-Connector](https://github.com/zerodytrash/TikTok-Live-Connector) library by zerodytrash. Make sure to check out their repository for more information and to show your support.
+
 ## Prerequisites
 
 Before running this project, make sure you have the following installed:
@@ -29,21 +31,16 @@ Before running this project, make sure you have the following installed:
    npm install
    ```
 
+
 ## Usage
-
-1. Open the `live.js` file located in the project directory.
-2. Locate the variable `TIKTOK_USERNAME` and replace it with the username of someone who is currently live on TikTok.
-3. Save the file.
-
-## Running the Project
 
 To run the project and scrape TikTok live comments to a CSV file, use the following command:
 
 ```bash
-node live.js
+node live.js <TIKTOK_USERNAME>
 ```
 
-## file 
+## Files tree
 
 ```bash
 tiktok_live_comments_scrap/
